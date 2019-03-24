@@ -3,7 +3,7 @@ body {
 }
 
 
-/* HEADER */
+/* header */
 
 header {
     height: 100vh;
@@ -11,7 +11,7 @@ header {
 }
 
 
-/* NAVBAR */
+/* navbar */
 
 .nav-menu {
     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5));
@@ -61,10 +61,10 @@ header {
 }
 
 
-/* END OF NAVBAR */
+/* end of navbar */
 
 
-/* BANNER */
+/* banner */
 
 .banner {
     position: absolute;
@@ -91,6 +91,7 @@ header {
         transform: translateX(-100px);
         opacity: 0;
     }
+
     100% {
         transform: translateX(0);
         opacity: 1;
@@ -98,13 +99,13 @@ header {
 }
 
 
-/* END OF BANNER */
+/* end of banner */
 
 
-/* END OF HEADER */
+/* end of header */
 
 
-/* MISSION */
+/* mission */
 
 .mission {
     background: #151f20;
@@ -131,6 +132,7 @@ header {
         transform: translateX(-120px);
         opacity: 0;
     }
+
     100% {
         transform: translateX(0);
         opacity: 1;
@@ -142,6 +144,7 @@ header {
         transform: translateX(30px);
         opacity: 0;
     }
+
     100% {
         transform: translateX(0);
         opacity: 1;
@@ -149,10 +152,10 @@ header {
 }
 
 
-/* END OF MISSION */
+/* end of mission */
 
 
-/* COLLECTION */
+/* collection */
 
 .card-shadow {
     box-shadow: 5px 8px 20px #444;
@@ -160,11 +163,11 @@ header {
 
 .heading {
     position: absolute;
-    top: 80%;
+    top: 70%;
     right: 0;
     font-size: 14px;
     letter-spacing: 1px;
-    background-color: #222;
+    background: #222;
     width: 70%;
     cursor: pointer;
     opacity: .7;
@@ -176,10 +179,9 @@ header {
 }
 
 
-/* END OF COLLECTION */
+/* end of collection */
 
-
-/* GALLERY */
+/* gallery */
 
 .underline-dark {
     width: 330px;
@@ -198,25 +200,25 @@ header {
 }
 
 
-/* END OF GALLERY */
+/* end of gallery */
 
 
-/* CUSTOMERS */
+/* customers */
 
 .customers {
-    background: #151f29;
+    background: #151f20;
 }
 
 
-/* END OF CUSTOMERS */
+/* end of customers */
 
 
-/* PRICING */
+/* pricing */
 
 .card-1,
 .card-2,
 .card-3 {
-    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url(images/pricing-card-bg.jpeg) center no-repeat /cover;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .5)), url(images/pricing-card-bg.jpeg) center no-repeat /cover;
     box-shadow: 7px 18px 50px #555;
     max-width: 400px;
 }
@@ -260,6 +262,7 @@ header {
         transform: translateX(-100px);
         opacity: 0;
     }
+
     100% {
         transform: translateX(0);
         opacity: 1;
@@ -271,6 +274,7 @@ header {
         transform: translateX(100px);
         opacity: 0;
     }
+
     100% {
         transform: translateX(0);
         opacity: 1;
@@ -282,6 +286,7 @@ header {
         transform: translateY(100px);
         opacity: 0;
     }
+
     100% {
         transform: translateY(0);
         opacity: 1;
@@ -289,4 +294,67 @@ header {
 }
 
 
-/* END OF PRICING */
+/*  end of pricing */
+
+
+/* contact */
+
+.contact {
+    background: linear-gradient(105deg, rgba(21, 31, 32, 1) 0%, rgba(21, 31, 32, .95) 50%, transparent 50%), url(images/form-img.jpeg) center center no-repeat /cover;
+}
+
+.input {
+    background: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    transition: all .8s;
+}
+
+.input:focus {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color: #fff;
+    border-bottom: 2px solid #f5593d;
+}
+
+.submit-button {
+    background: #f5593d;
+    color: #eee;
+    transition: all .3s;
+}
+
+.submit-button:hover {
+    background: #f9793d;
+    transform: translateY(-3px);
+}
+
+.label {
+    color: #777;
+    display: block;
+    margin-top: -70px;
+    margin-left: 4px;
+    font-size: 13px;
+    transition: all .3s;
+}
+
+.input:placeholder-shown+.label {
+    transform: translate(20px, 20px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+@media (max-width: 992px) {
+    .contact {
+        background: linear-gradient(rgba(21, 31, 32, 1), rgba(21, 31, 32, .95));
+    }
+
+    .contact-form {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+/* end of contact */

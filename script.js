@@ -1,9 +1,9 @@
-$(document).ready(function() {
-    $('.nav-button').click(function() {
+$(document).ready(function () {
+    $('.nav-button').click(function () {
         $('.nav-button').toggleClass('change');
     });
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         let position = $(this).scrollTop();
         if (position >= 200) {
             $('.nav-menu').addClass('custom-navbar');
@@ -12,7 +12,7 @@ $(document).ready(function() {
         }
     });
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         let position = $(this).scrollTop();
         if (position >= 650) {
             $('.camera-img').addClass('fromLeft');
@@ -25,7 +25,7 @@ $(document).ready(function() {
 
     // Gallery effect JQuery
     // Attach click event to gallery-list-item
-    $('.gallery-list-item').click(function() {
+    $('.gallery-list-item').click(function () {
         // instance a variable for store click li st-item
         let value = $(this).attr('data-filter');
         if (value === 'all') {
@@ -37,12 +37,12 @@ $(document).ready(function() {
     });
 
     // Change color for active-item*css
-    $('.gallery-list-item').click(function() {
+    $('.gallery-list-item').click(function () {
         $(this).addClass('active-item').siblings().removeClass('active-item');
     });
 
     // PRICING Card animation
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         let position = $(this).scrollTop();
         if (position >= 4300) {
             $('.card-1').addClass('moveFromLeft');
