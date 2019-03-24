@@ -4,7 +4,6 @@ body {
 
 
 /* header */
-
 header {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)), url(images/header-img.jpeg) no-repeat center center /cover;
@@ -12,7 +11,6 @@ header {
 
 
 /* navbar */
-
 .nav-menu {
     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5));
     padding: 30px;
@@ -60,12 +58,10 @@ header {
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .7));
 }
 
-
 /* end of navbar */
 
 
 /* banner */
-
 .banner {
     position: absolute;
     top: 50%;
@@ -98,15 +94,9 @@ header {
     }
 }
 
-
 /* end of banner */
 
-
-/* end of header */
-
-
 /* mission */
-
 .mission {
     background: #151f20;
 }
@@ -151,12 +141,10 @@ header {
     }
 }
 
-
 /* end of mission */
 
 
 /* collection */
-
 .card-shadow {
     box-shadow: 5px 8px 20px #444;
 }
@@ -178,11 +166,9 @@ header {
     opacity: 1;
 }
 
-
 /* end of collection */
 
 /* gallery */
-
 .underline-dark {
     width: 330px;
     border: 1px solid #888;
@@ -204,7 +190,6 @@ header {
 
 
 /* customers */
-
 .customers {
     background: #151f20;
 }
@@ -214,7 +199,6 @@ header {
 
 
 /* pricing */
-
 .card-1,
 .card-2,
 .card-3 {
@@ -298,7 +282,6 @@ header {
 
 
 /* contact */
-
 .contact {
     background: linear-gradient(105deg, rgba(21, 31, 32, 1) 0%, rgba(21, 31, 32, .95) 50%, transparent 50%), url(images/form-img.jpeg) center center no-repeat /cover;
 }
@@ -356,5 +339,18 @@ header {
     }
 }
 
-
 /* end of contact */
+
+/* footer */
+.footer-link {
+    color: #eee;
+    font-size: 13px;
+    transition: all .3s;
+  }
+  
+  .footer-link:hover {
+    color: #70aed2;
+    text-decoration: none;
+  }
+  
+  /* end of footer */
