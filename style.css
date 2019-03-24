@@ -194,7 +194,18 @@ header {
 }
 
 .active-item {
-  color: #70aed2;
+    color: #70aed2;
 }
 
+
 /* END OF GALLERY */
+
+
+/* CUSTOMERS */
+
+.customers {
+    background: #151f29;
+}
+
+
+/* END OF CUSTOMERS */
