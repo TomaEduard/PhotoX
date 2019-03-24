@@ -96,6 +96,49 @@ header {
 /* END OF HEADER */
 
 
+/* MISSION */
+.mission {
+  background: #151f20;
+}
+
+.underline {
+  width: 330px;
+  border: 1px solid #eee;
+  margin: auto
+}
+
+.fromLeft {
+  animation-name: fromLeft;
+  animation-duration: 3s;
+}
+
+.fromRight {
+  animation-name: fromRight;
+  animation-duration: 3s;
+}
+
+@keyframes fromLeft {
+  0% {
+    transform: translateX(-120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fromRight {
+  0% {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* END OF MISSION */
 
 
 
